@@ -45,6 +45,7 @@ function spawnAsteroid() {
 }
 
 function boing() {
+    res.boing.currentTime = 0 
     res.boing.play()
 }
 
