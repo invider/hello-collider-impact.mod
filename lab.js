@@ -10,6 +10,10 @@ let dy = ry(.2)
 let impacts = 0
 const asteroids = []
 
+function init() {
+    lab.background = '#050508'
+}
+
 function spawnAsteroid() {
     asteroids.push({
         r: 25,
